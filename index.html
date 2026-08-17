@@ -1,0 +1,70 @@
+html
+
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>扬州泰源润扬科技</title>
+
+<style>
+
+body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+
+.container { max-width: 800px; margin: 20px auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+
+header { text-align: center; border-bottom: 2px solid #007bff; padding-bottom: 10px; margin-bottom: 20px; }
+
+.phone-card { background: #e7f3ff; border: 1px solid #007bff; padding: 15px; border-radius: 5px; text-align: center; margin: 20px 0; }
+
+.phone-card a { color: #007bff; font-size: 24px; font-weight: bold; text-decoration: none; }
+
+form { display: flex; flex-direction: column; }
+
+input, textarea { margin-bottom: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 4px; }
+
+button { background: #007bff; color: white; padding: 10px; border: none; border-radius: 4px; cursor: pointer; }
+
+button:hover { background: #0056b3; }
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+</header>
+
+<section>
+    <h2>联系我们</h2>
+    <div class="phone-card">
+        📞 免费热线（点击拨打）：
+        <!-- 这里替换成真实的虚拟号码 -->
+        +1 855-XXX-XXXX
+        <p>客户拨打上方号码将直接转接到手机</p >
+    </div>
+</section>
+
+<section>
+    <h2>在线留言</h2>
+    <form action="https://formspree.io/f/你的FormspreeID" method="POST">
+        <input type="text" name="name" placeholder="您的姓名" required>
+        <input type="email" name="_replyto" placeholder="您的邮箱" required>
+        <textarea name="message" rows="5" placeholder="您的需求..." required></textarea>
+        <button type="submit">发送留言</button>
+    </form>
+</section>
+</div>
+
+</body>
+
+</html>
